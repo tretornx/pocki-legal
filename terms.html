@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions d'utilisation - Pocki</title>
+    <style>
+        :root {
+            --primary: #FF6B35;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-secondary: #666;
+            --card-bg: #FFFFFF;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1A1A1A;
+                --text: #FAFAFA;
+                --text-secondary: #999;
+                --card-bg: #2A2A2A;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+        .logo { 
+            width: 80px; 
+            height: 80px; 
+            margin-bottom: 16px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { color: var(--text-secondary); font-size: 14px; }
+        .last-update { 
+            color: var(--text-secondary); 
+            font-size: 13px; 
+            margin-top: 8px;
+        }
+        section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h3 {
+            font-size: 15px;
+            margin: 16px 0 8px;
+            color: var(--text);
+        }
+        p, li {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        .highlight {
+            background: #FFF3E0;
+            color: #E65100;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+        }
+        .highlight-blue {
+            background: #E3F2FD;
+            color: #1565C0;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+        }
+        @media (prefers-color-scheme: dark) {
+            .highlight {
+                background: #BF360C;
+                color: #FFCCBC;
+            }
+            .highlight-blue {
+                background: #0D47A1;
+                color: #BBDEFB;
+            }
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        a { color: var(--primary); }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(128,128,128,0.2);
+        }
+        th {
+            font-weight: 600;
+            color: var(--text);
+        }
+        td { color: var(--text-secondary); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Pocki" class="logo">
+        <h1>Conditions d'utilisation</h1>
+        <p class="subtitle">Pocki — Gestion de budget</p>
+        <p class="last-update">Dernière mise à jour : 18 janvier 2026</p>
+    </div>
+
+    <section>
+        <h2>📱 Présentation du service</h2>
+        <p>Pocki est une application iOS de gestion de budget personnel basée sur la méthode des enveloppes. Elle te permet de :</p>
+        <ul>
+            <li>Créer des enveloppes de budget</li>
+            <li>Enregistrer tes dépenses</li>
+            <li>Suivre tes projets d'épargne</li>
+            <li>Partager ton budget avec un partenaire</li>
+            <li>Recevoir des conseils personnalisés</li>
+        </ul>
+    </section>
+
+
+    <section>
+        <h2>🏢 Éditeur & contact</h2>
+        <p><strong>Éditeur :</strong> [Ton nom / raison sociale]</p>
+        <p><strong>Adresse :</strong> [Adresse postale ou domiciliation]</p>
+        <p><strong>Email support :</strong> <a href="mailto:support@pocki-app.fr">support@pocki-app.fr</a></p>
+        <p><strong>Email données personnelles :</strong> <a href="mailto:privacy@pocki-app.fr">privacy@pocki-app.fr</a></p>
+    </section>
+
+
+    <section>
+        <h2>💎 Abonnement PockiPremium</h2>
+        
+        <h3>Formules disponibles</h3>
+        <table>
+            <tr>
+                <th>Offre</th>
+                <th>Prix</th>
+                <th>Facturation</th>
+            </tr>
+            <tr>
+                <td>Mensuel</td>
+                <td>1,99 €/mois</td>
+                <td>Chaque mois</td>
+            </tr>
+            <tr>
+                <td>Annuel</td>
+                <td>19,99 €/an</td>
+                <td>Chaque année (≈17% d’économie)</td>
+            </tr>
+        </table>
+        
+        <div class="highlight">
+            <strong>⚠️ Renouvellement automatique</strong><br>
+            L'abonnement se renouvelle automatiquement à la fin de chaque période, sauf si tu l'annules au moins 24 heures avant la fin de la période en cours.
+        </div>
+        
+        <h3>Paiement</h3>
+        <p>Le paiement est débité de ton compte Apple (App Store) lors de la confirmation d'achat. Le renouvellement est débité dans les 24 heures précédant la fin de la période en cours.</p>
+        
+        <h3>Annulation</h3>
+        <p>Tu peux annuler ton abonnement à tout moment :</p>
+        <ol>
+            <li>Va dans <strong>Réglages iPhone</strong></li>
+            <li>Appuie sur ton nom (Apple ID)</li>
+            <li>Appuie sur <strong>Abonnements</strong></li>
+            <li>Sélectionne <strong>Pocki</strong></li>
+            <li>Appuie sur <strong>Annuler l'abonnement</strong></li>
+        </ol>
+        <p>Après annulation, tu conserves l'accès Premium jusqu'à la fin de la période payée.</p>
+        
+        <h3>Restauration des achats</h3>
+        <p>Si tu changes d'appareil, tu peux restaurer ton abonnement via Réglages → "Restaurer mes achats" dans l'app.</p>
+        
+        <h3>Remboursement</h3>
+        <p>Les demandes de remboursement sont gérées par Apple selon leurs conditions. Contacte le support Apple pour toute demande.</p>
+    </section>
+
+    <section>
+        <h2>🆓 Version gratuite</h2>
+        <p>La version gratuite de Pocki inclut :</p>
+        <ul>
+            <li>Jusqu'à 5 enveloppes</li>
+            <li>Jusqu'à 2 projets d'épargne</li>
+            <li>Jusqu'à 3 crédits</li>
+            <li>Widgets et Siri</li>
+            <li>1 essai gratuit par fonctionnalité IA</li>
+        </ul>
+        <p>Pour débloquer les fonctionnalités illimitées et le partage, un abonnement Premium est requis.</p>
+    </section>
+
+    <section>
+        <h2>🤖 Fonctionnalités IA</h2>
+        <p>Pocki propose des conseils personnalisés générés par intelligence artificielle (Apple Intelligence) sur les appareils compatibles.</p>
+        
+        <div class="highlight-blue">
+            <strong>Disponibilité</strong><br>
+            L'IA nécessite un appareil compatible avec Apple Intelligence. Sur les autres appareils, un mode algorithmique standard est actif.
+        </div>
+        
+        <p><strong>Avertissement :</strong> Les conseils générés sont indicatifs et ne constituent pas un avis financier, juridique ou fiscal. Consulte un professionnel pour toute décision importante.</p>
+    </section>
+
+    <section>
+        <h2>👥 Partage couple</h2>
+        <p>Le partage de budget nécessite un abonnement Premium pour le propriétaire. L'invité peut accéder gratuitement au budget partagé.</p>
+        <p>Le propriétaire peut révoquer l'accès à tout moment. En cas d'annulation de l'abonnement Premium, le partage est désactivé.</p>
+    </section>
+
+    <section>
+        <h2>📜 Propriété intellectuelle</h2>
+        <p>L'application Pocki, son design, son code et ses contenus sont protégés par le droit d'auteur. Tu bénéficies d'une licence personnelle, non exclusive et non transférable pour utiliser l'app.</p>
+        <p>Tu ne peux pas reproduire, modifier, distribuer ou exploiter commercialement l'application.</p>
+    </section>
+
+    <section>
+        <h2>⚠️ Limitation de responsabilité</h2>
+        <p>Pocki est un outil d'aide à la gestion de budget. Nous ne garantissons pas :</p>
+        <ul>
+            <li>L'exactitude des calculs si les données saisies sont incorrectes</li>
+            <li>La disponibilité permanente du service</li>
+            <li>La compatibilité avec tous les appareils</li>
+        </ul>
+        <p>Tu es seul responsable des décisions financières prises sur la base des informations affichées dans l'app.</p>
+    </section>
+
+    <section>
+        <h2>🔄 Modifications</h2>
+        <p>Ces conditions peuvent être modifiées. En cas de changement significatif, nous t'en informerons via l'app. La poursuite de l'utilisation après modification vaut acceptation des nouvelles conditions.</p>
+    </section>
+
+    <section>
+        <h2>⚖️ Droit applicable</h2>
+        <p>Ces conditions sont soumises au droit français. En cas de litige, les règles de compétence applicables s’appliquent (notamment celles de protection des consommateurs, si elles s’appliquent).</p>
+    </section>
+
+    <section>
+        <h2>📧 Contact</h2>
+        <p><strong>Support :</strong> <a href="mailto:support@pocki-app.fr">support@pocki-app.fr</a></p>
+        <p><strong>Données personnelles :</strong> <a href="mailto:privacy@pocki-app.fr">privacy@pocki-app.fr</a></p>
+    </section>
+
+    <div class="footer">
+        <p><a href="support.html">Support</a> • <a href="privacy.html">Politique de confidentialité</a></p>
+        <p>© 2026 Pocki. Tous droits réservés.</p>
+    </div>
+</body>
+</html>

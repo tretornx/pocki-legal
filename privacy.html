@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - Pocki</title>
+    <style>
+        :root {
+            --primary: #FF6B35;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-secondary: #666;
+            --card-bg: #FFFFFF;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1A1A1A;
+                --text: #FAFAFA;
+                --text-secondary: #999;
+                --card-bg: #2A2A2A;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+        .logo { 
+            width: 80px; 
+            height: 80px; 
+            margin-bottom: 16px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { color: var(--text-secondary); font-size: 14px; }
+        .last-update { 
+            color: var(--text-secondary); 
+            font-size: 13px; 
+            margin-top: 8px;
+        }
+        section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h3 {
+            font-size: 15px;
+            margin: 16px 0 8px;
+            color: var(--text);
+        }
+        p, li {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        .highlight {
+            background: #E3F2FD;
+            color: #1565C0;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+        }
+        @media (prefers-color-scheme: dark) {
+            .highlight {
+                background: #0D47A1;
+                color: #BBDEFB;
+            }
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        a { color: var(--primary); }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(128,128,128,0.2);
+        }
+        th {
+            font-weight: 600;
+            color: var(--text);
+        }
+        td { color: var(--text-secondary); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Pocki" class="logo">
+        <h1>Politique de confidentialité</h1>
+        <p class="subtitle">Pocki respecte ta vie privée</p>
+        <p class="last-update">Dernière mise à jour : 18 janvier 2026</p>
+    </div>
+
+    <section>
+        <h2>🔒 Notre engagement</h2>
+        <div class="highlight">
+            <strong>Tes données restent les tiennes.</strong><br>
+            Pocki ne vend pas tes données, ne fait pas de tracking publicitaire, et stocke tout localement sur ton appareil ou dans ton iCloud privé.
+        </div>
+        <p style="margin-top:12px;color:var(--text-secondary);"><strong>Responsable du traitement :</strong> [Ton nom / raison sociale] — <strong>Contact :</strong> <a href="mailto:privacy@pocki-app.fr">privacy@pocki-app.fr</a></p>
+    </section>
+
+    <section>
+        <h2>📊 Données collectées</h2>
+        <p>Pocki enregistre uniquement les informations que tu saisis pour gérer ton budget :</p>
+        
+        <table>
+            <tr>
+                <th>Donnée</th>
+                <th>Finalité</th>
+            </tr>
+            <tr>
+                <td>Prénom (optionnel)</td>
+                <td>Personnaliser l'expérience</td>
+            </tr>
+            <tr>
+                <td>Enveloppes budget</td>
+                <td>Gérer tes catégories de dépenses</td>
+            </tr>
+            <tr>
+                <td>Dépenses</td>
+                <td>Suivre tes transactions</td>
+            </tr>
+            <tr>
+                <td>Revenus / charges</td>
+                <td>Calculer ton reste à vivre</td>
+            </tr>
+            <tr>
+                <td>Projets d'épargne</td>
+                <td>Suivre tes objectifs</td>
+            </tr>
+            <tr>
+                <td>Crédits</td>
+                <td>Suivre tes remboursements</td>
+            </tr>
+        </table>
+        
+        <p><strong>Nous ne collectons PAS :</strong></p>
+        <ul>
+            <li>Données bancaires ou numéros de carte</li>
+            <li>Localisation</li>
+            <li>Contacts</li>
+            <li>Photos ou fichiers</li>
+            <li>Identifiants publicitaires</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>💾 Stockage des données</h2>
+        
+        <h3>Sur ton appareil (local)</h3>
+        <p>Toutes tes données sont stockées localement dans l'app, dans une base de données Core Data chiffrée par iOS.</p>
+        
+        <h3>Dans iCloud (synchronisation)</h3>
+        <p>Si iCloud est activé, tes données sont synchronisées via <strong>CloudKit</strong> (service Apple). Cela te permet de retrouver tes données sur un nouvel iPhone.</p>
+        <p>Apple gère la sécurité et le chiffrement de CloudKit. Nous n'avons pas accès à tes données iCloud.</p>
+        
+        <h3>Partage couple</h3>
+        <p>Si tu actives le partage, tes données de budget sont partagées avec la personne que tu invites, via CloudKit Sharing d'Apple. Seuls les participants ont accès aux données partagées.</p>
+    </section>
+
+    <section>
+        <h2>🤖 Intelligence artificielle</h2>
+        <p>Pocki utilise <strong>Apple Intelligence</strong> (FoundationModels) pour générer des conseils personnalisés.</p>
+        
+        <div class="highlight">
+            <strong>Traitement privé.</strong><br>
+            Les analyses sont effectuées sur ton appareil quand c’est possible. Selon la fonctionnalité et la compatibilité de ton appareil, certaines requêtes Apple Intelligence peuvent être traitées via l’infrastructure Apple (ex. Private Cloud Compute). Pocki n’envoie aucune donnée à des serveurs tiers publicitaires, et ne vend pas tes données.
+        </div>
+        
+        <p>Si ton appareil ne supporte pas Apple Intelligence, un mode algorithmique standard génère les conseils localement.</p>
+    </section>
+
+    <section>
+        <h2>🔄 Export et suppression</h2>
+        
+        <h3>Exporter tes données</h3>
+        <p>Tu peux exporter tes dépenses au format CSV ou PDF depuis l'app (Réglages → Exporter).</p>
+        
+        <h3>Supprimer tes données</h3>
+        <p>Tu peux supprimer toutes tes données via Réglages → "Repartir à zéro".</p>
+        <p>Cette action supprime :</p>
+        <ul>
+            <li>Toutes les données locales</li>
+            <li>Toutes les données iCloud associées</li>
+            <li>Les partages actifs</li>
+        </ul>
+        <p><strong>Cette action est irréversible.</strong></p>
+    </section>
+
+    <section>
+        <h2>🍪 Cookies et tracking</h2>
+        <p>L'app Pocki <strong>n'utilise pas</strong> de cookies, de SDK de tracking, ni de services d'analytics tiers.</p>
+        <p>Nous ne suivons pas ton comportement dans l'app à des fins publicitaires.</p>
+    </section>
+
+    <section>
+        <h2>👶 Mineurs</h2>
+        <p>Pocki n'est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données de mineurs.</p>
+    </section>
+
+    <section>
+        <h2>📝 Modifications</h2>
+        <p>Cette politique peut être mise à jour. En cas de changement significatif, nous t'en informerons via l'app.</p>
+    </section>
+
+    
+    <section>
+        <h2>🧾 Tes droits (RGPD)</h2>
+        <p>Si tu résides dans l’Union européenne, tu disposes notamment des droits suivants : accès, rectification, suppression, limitation, opposition et portabilité.</p>
+        <p><strong>Comment exercer tes droits ?</strong></p>
+        <ul>
+            <li>Tu peux supprimer tes données directement depuis l’app (Réglages → “Repartir à zéro”).</li>
+            <li>Pour toute demande, contacte-nous à l’adresse ci-dessous.</li>
+        </ul>
+        <p>Tu peux également déposer une réclamation auprès de la <strong>CNIL</strong> (France) ou de ton autorité de protection des données locale.</p>
+    </section>
+
+
+    <section>
+        <h2>📧 Contact</h2>
+        <p>Pour toute question relative à tes données personnelles :</p>
+        <p><strong>Email :</strong> <a href="mailto:privacy@pocki-app.fr">privacy@pocki-app.fr</a></p>
+    </section>
+
+    <div class="footer">
+        <p><a href="support.html">Support</a> • <a href="terms.html">Conditions d'utilisation</a></p>
+        <p>© 2026 Pocki. Tous droits réservés.</p>
+    </div>
+</body>
+</html>

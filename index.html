@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocki - Support & informations légales</title>
+    <style>
+        :root {
+            --primary: #FF6B35;
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --text-secondary: #666;
+            --card-bg: #FFFFFF;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1A1A1A;
+                --text: #FAFAFA;
+                --text-secondary: #999;
+                --card-bg: #2A2A2A;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+        .logo { 
+            width: 100px; 
+            height: 100px; 
+            margin-bottom: 20px;
+            border-radius: 22px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+        .links {
+            margin-top: 40px;
+        }
+        .link-card {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: var(--text);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        .link-icon {
+            font-size: 28px;
+        }
+        .link-text h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .link-text p {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+        .app-store {
+            display: inline-block;
+            margin-top: 30px;
+        }
+        .app-store img {
+            height: 44px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Pocki" class="logo">
+        <h1>Pocki</h1>
+        <p class="tagline">Pages officielles de support et informations légales</p>
+        <p class="tagline" style="margin-top:8px;font-size:13px;">Dernière mise à jour : 1 février 2026</p>
+    </div>
+
+    <div class="links">
+        <a href="support.html" class="link-card">
+            <span class="link-icon">📧</span>
+            <div class="link-text">
+                <h3>Support</h3>
+                <p>Besoin d'aide ? Contacte-nous</p>
+            </div>
+        </a>
+        
+        <a href="privacy.html" class="link-card">
+            <span class="link-icon">🔒</span>
+            <div class="link-text">
+                <h3>Politique de confidentialité</h3>
+                <p>Comment nous protégeons tes données</p>
+            </div>
+        </a>
+        
+        <a href="terms.html" class="link-card">
+            <span class="link-icon">📜</span>
+            <div class="link-text">
+                <h3>Conditions d'utilisation</h3>
+                <p>CGU et conditions d'abonnement</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="footer">
+        <!-- Ajouter le badge App Store une fois l'app publiée -->
+        <!-- <a href="https://apps.apple.com/app/pocki" class="app-store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Télécharger sur l'App Store">
+        </a> -->
+        <p style="margin-bottom:10px;"><strong>Éditeur :</strong> <span>[Ton nom / raison sociale]</span> — <strong>Adresse :</strong> <span>[Adresse postale ou domiciliation]</span> — <strong>Email :</strong> <a href="mailto:support@pocki-app.fr">support@pocki-app.fr</a></p>
+        <p>© 2026 Pocki. Tous droits réservés.</p>
+    </div>
+</body>
+</html>
